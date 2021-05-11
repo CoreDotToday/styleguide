@@ -21,3 +21,4 @@ CL이 완벽하지 않더라도 전체적인 코드 품질을 증가시키는 �
 ### Reference
 - https://soojin.ro/review/standard
 - http://sv-story.blogspot.com/2013/04/blog-post_28.html
+- https://sshcode.blogspot.com/2019/09/blog-post.html
