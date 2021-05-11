@@ -44,6 +44,10 @@ https://python-guide-kr.readthedocs.io/ko/latest/writing/structure.html
 - 불필요한 주석은 달지 말 것
 - 한 줄 주석은 신중히 달 것
 
+#### .gitignore
+- 다음 파일을 참고하여 불필요한 파일은 Git에 올리지 말 것
+https://raw.githubusercontent.com/CoreDotToday/styleguide/main/python/.gitignore
+
 
 ## 참고 문헌
 - [Google Python Style Guide](https://google.github.io/styleguide/pyguide.html)
