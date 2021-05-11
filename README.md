@@ -15,3 +15,7 @@
 - 소스 코드에 대한 링크
 - 버그 추적 시스템에 대한 링크
 - 커뮤니티 지원, 메일링 리스트, 포럼 등에 대한 링크
+
+
+## 코드 리뷰 원칙
+- [코드 리뷰 가이드라인](https://github.com/CoreDotToday/styleguide/blob/main/review.md)
