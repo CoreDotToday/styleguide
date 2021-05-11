@@ -22,6 +22,10 @@ https://python-guide-kr.readthedocs.io/ko/latest/writing/structure.html
    * 예) 3.9 버전은 3.9.1 이후로 사용
 
 
+## 독스트링 (Docstrings)
+- 구글 스타일 독스트링을 기준으로 한다
+  - [example_google.py](https://github.com/CoreDotToday/styleguide/blob/main/python/example_google.py)
+
 ## 세부논의
 
 #### 코드 레이아웃
