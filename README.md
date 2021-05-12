@@ -3,9 +3,9 @@
 
 
 ## 운영 목록
-- Git
-- Python
-- Web
+- [Git](https://github.com/CoreDotToday/styleguide/tree/main/git)
+- [Python](https://github.com/CoreDotToday/styleguide/tree/main/python)
+- [Web](https://github.com/CoreDotToday/styleguide/tree/main/web)
 
 
 ## 프로젝트 문서에 항상 들어가 있어야 하는 내용
@@ -26,7 +26,7 @@
 > 개인의 속도 보다는 "팀의 속도"가 중요하기 때문이다. 
 
 3. 싸우면 안된다.
-> 개발자들은 표현이 서툴다.
+> 개발자들은 표현이 서툴다.   
 > 잊지 말자, 우리는 앞으로 나아가고 성장해야 한다. 그것 이외에는 전혀 쓸데 없는 것이다 정말로.
 
 - [코드 리뷰 가이드라인](https://github.com/CoreDotToday/styleguide/blob/main/review.md)
