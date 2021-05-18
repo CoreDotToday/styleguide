@@ -49,7 +49,7 @@ https://python-guide-kr.readthedocs.io/ko/latest/writing/structure.html
 - 한 줄 주석은 신중히 달 것
 
 #### .gitignore
-- 다음 파일을 참고하여 불필요한 파일은 Git에 올리지 말 것
+- 다음 파일을 참고하여 불필요한 파일은 Git에 올리지 말 것   
 https://raw.githubusercontent.com/CoreDotToday/styleguide/main/python/.gitignore
 
 
