@@ -26,7 +26,54 @@
 
 ## 독스트링 (Docstrings)
 - Numpy 스타일 독스트링을 기준으로 한다
+  - 가독성을 극대화하기 위해 추가 세로 공간을 사용하는 좋은 형식
   - [Numpy-style.py](https://github.com/CoreDotToday/styleguide/blob/main/python/docstring/Numpy-style.py)
+- 예(example)는 REPL 스타일로 제공되어야 한다
+```python
+"""
+Examples
+--------
+>>> dumb_add(1, 2, 3, 4, 5)
+15
+
+Comment explaining the second example
+
+>>> dumb_add(6, 7, 8, 9, 10)
+40
+"""
+```
+- 한 줄 독 스트링
+```python
+def dumb_sub(num1, num0):
+    """Subtracting num0 from num1."""
+```
+- 인라인 주석은 소문자로 시작해야 한다
+```python
+# going through the student list
+for idx, student in enumerate(students_list):
+    ...
+```
+- 클래스를 문서화하는 경우 메소드와 속성을 언급해야 한다
+  - 메소드는 함수처럼 문서화되어야 한다
+```python
+class Dummy(ndarray):
+    """
+    Dummy classes for demonstration.
+
+    Attributes
+    ----------
+    attribute_1 : float
+        Set up your goal.
+
+    Methods
+    -------
+    method_1(c=2)
+        Runs a self-referential loop n times.
+    method_2(n=1.0)
+        Prints Nietzsche's n times.
+    """
+```
+
 
 ## 세부논의
 
