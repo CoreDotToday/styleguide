@@ -54,8 +54,8 @@ def dumb_sub(num1, num0):
 for idx, student in enumerate(students_list):
     ...
 ```
-- 클래스를 문서화하는 경우 메소드와 속성을 언급해야 한다
-  - 메소드는 함수처럼 문서화되어야 한다
+- 클래스를 문서화하는 경우 메서드와 속성을 언급해야 한다
+  - 메서드는 함수처럼 문서화되어야 한다
 ```python
 class Dummy(ndarray):
     """
@@ -82,7 +82,7 @@ class Dummy(ndarray):
 - 들여쓰기는 소프트탭(space character)을 이용해 공백 4칸을 사용
 - 한 줄은 최대 89자까지 <sup>[[1]](#footnote1)</sup>
 - 최상위(top-level) 함수와 클래스 정의는 2줄씩 띄어 씀
-- 클래스 내의 메소드 정의는 1줄씩 띄어 씀
+- 클래스 내의 메서드 정의는 1줄씩 띄어 씀
 
 
 ### Single quote, double quote
@@ -140,7 +140,7 @@ class ExampleDummyFactory():
 
 fact = ExampleDummyFactory()
 ```
-- 프라이빗 `속성`, `메소드`, `변수` 및 `함수` 앞에는 밑줄을 사용한다
+- 프라이빗 `속성`, `메서드`, `변수` 및 `함수` 앞에는 밑줄을 사용한다
 ```python
 # private methods and attributes demo
 
@@ -265,7 +265,7 @@ https://raw.githubusercontent.com/CoreDotToday/styleguide/main/python/.gitignore
     - 그들은 병합 충돌의 형태로 개발자 시간을 낭비하는 경향이 있습니다.
 
 ### 함수
-- 기본 함수/메소드 인수로 변경 가능한(mutable) 데이터 유형을 피한다
+- 기본 함수/메서드 인수로 변경 가능한(mutable) 데이터 유형을 피한다
 ```python
 # don't
 def make_list(val, lst=[]):
@@ -688,7 +688,7 @@ if val is not None:
 
 
 #### 데코레이터(decorator)
-가능한 경우 소스 코드를 직접 변경하는 대신 데코레이터를 사용하여 함수/메소드를 변경하거나 모니터링하자.   
+가능한 경우 소스 코드를 직접 변경하는 대신 데코레이터를 사용하여 함수/메서드를 변경하거나 모니터링하자.   
 다음과 같은 패턴을 추천한다.
 ```python
 from functools import partial, wraps
