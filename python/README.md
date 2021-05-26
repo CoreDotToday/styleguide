@@ -134,6 +134,7 @@ class exampleDummyFactory():
 
 fact = exampleDummyFactory()
 
+
 # do
 class ExampleDummyFactory():
     # ...
@@ -181,6 +182,7 @@ def public_function():
 def a():
     # ...
 
+
 # do
 def analogy():
     # ...
@@ -194,15 +196,15 @@ raw_data_df = pd.DataFrame(raw_data)
 id_num_dct = {"a": 1, "b": 2}
 
 # don't - meaningless names, lost context
-LIST_1 = ["Jack", "Alice", "Emily"]
+list_1 = ["Jack", "Alice", "Emily"]
 # ... many lines of code later
-for item in LIST_1:
+for item in list_1:
     add_person(item)
 
 # do
-NAME_LIST = ["Jack", "Alice", "Emily"]
+name_list = ["Jack", "Alice", "Emily"]
 # ... many lines of code later
-for name in NAME_LIST:
+for name in name_list:
     add_person(name)
 ```
 - 이름 지정에 단수 또는 기본 단어를 사용한다
@@ -211,6 +213,7 @@ for name in NAME_LIST:
 # don't
 def moves_object(x, y):
     # ...
+
 
 # do
 def move_object(x, y):
@@ -272,11 +275,11 @@ def make_list(val, lst=[]):
     lst.append(val)
     return lst
 
-
 make_list(1)
 # => [1]
 make_list(2)
 # => [1, 2], instead of the new init [2]
+
 
 # do
 def make_list(val, lst=None):
@@ -284,7 +287,6 @@ def make_list(val, lst=None):
         lst = []
     lst.append(val)
     return lst
-
 
 init_list(1)
 # >> [1]
@@ -453,7 +455,6 @@ except ValueError:
 def get_number():
     return int("foo")
 
-
 try:
     x = get_number()
 except ValueError:
@@ -491,10 +492,10 @@ Python은 다중 패러다임 언어로 간주되지만 정확히 함수형 언�
   divider([1, 2, 3])
   # >> [0, 1, 1]
 
+  
   # do
   def divider(some_list):
       return [x // 2 for x in some_list]
-
 
   divider([1, 2, 3])
   # >> [0, 1, 1]
@@ -575,6 +576,7 @@ logging.basicConfig(
 
 from . import logging
 
+
 def dumb_div(a):
     try:
         res = a // 0
@@ -610,6 +612,7 @@ sentry_sdk.init(
 # using the sentry logging class defined in __init__.py
 
 from . import logging
+
 
 def dumb_div(a):
         try:
