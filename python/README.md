@@ -12,7 +12,8 @@
 3. 메인 코드가 실행되기 전에 의존성 버전 차이를 처리한다
 4. Spinx 자동 문서화 확장을 사용한다
 5. Autoformatter로 [`black`](https://github.com/CoreDotToday/styleguide/issues/2)을 사용한다
-6. [PEP8](https://www.python.org/dev/peps/pep-0008/)을 준수한다
+6. 환경변수는 `.env` 파일에 저장하고, 라이브러리 [`environs`](https://github.com/sloria/environs) 로 불러온다
+7. [PEP8](https://www.python.org/dev/peps/pep-0008/)을 준수한다
 
 
 ## 환경
