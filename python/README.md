@@ -80,7 +80,20 @@ class Dummy(ndarray):
 
 ### 코드 레이아웃
 - 들여쓰기는 소프트탭(space character)을 이용해 공백 4칸을 사용
-- 한 줄은 최대 89자까지 <sup>[[1]](#footnote1)</sup>
+- 한 줄은 최대 89자까지 <sup>[[1]](#footnote1)</sup>   
+  - 긴 문자열은 경우에 따라 다음과 같이 끊어서 입력한다.
+    ```python
+    token = (
+      "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9."
+      + "eyJzdWIiOiJ1YnVudHUiLCJleHAiOjY4NDg3NDI1MDl9."
+      + "varo-uXei0kmGkejkfzCtOkWvW6y7ewzaKBj4qZZHWQ"
+    )
+
+    headers = {
+        "accept": "application/json",
+        "Authorization": f"Bearer {token}",
+    }
+    ```
 - 최상위(top-level) 함수와 클래스 정의는 2줄씩 띄어 씀
 - 클래스 내의 메서드 정의는 1줄씩 띄어 씀
 
