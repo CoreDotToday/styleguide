@@ -812,7 +812,8 @@ def retry(func=None, exception=Exception, n_tries=5, delay=5, backoff=1, logger=
 - [pytest](https://docs.pytest.org/en/latest/) 를 사용하여 테스트 작성하자
 - 많은 작은 순수(pure) 함수 및 멱등(idempotent) 함수를 작성하고, 변형(mutations)이 발생하는 것을 최소화하자
 - 버그를 수정할 때마다 [회귀 테스트](https://docs.python.org/3.8/library/test.html) 를 작성하자
-  - 회귀 테스트 없이 수정된 버그는 거의 확실하게 향후 다시 중단될 것이다
+  - 회귀(regression)<sup>[[2]](#footnote2)</sup> 테스트 없이 수정된 버그는 거의 확실하게 향후 다시 중단될 것이다
+  - 모든 유닛 테스트 빌드는 기존 코드에 회귀되지 않는다는 것을 보장하도록 실행된다
 - 직접 주장(direct assertions)과 명시적 비교(explicit comparisons)를 사용하자
   - 부정(negations)을 피하자
   ```python
@@ -827,7 +828,8 @@ def retry(func=None, exception=Exception, n_tries=5, delay=5, backoff=1, logger=
 
 
 ## 각주
-<strong><a name="footnote1">1.</a></strong> 제안자 <a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/jourmooney/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/jourmooney">@jourmooney</a>가 89년생
+<strong><a name="footnote1">1.</a></strong> 제안자 <a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/jourmooney/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/jourmooney">@jourmooney</a>가 89년생   
+<strong><a name="footnote2">2.</a></strong> 새로운 변경사항은 기존 코드의 동작에 영향을 주지 않는다
 
 ## 참고 문헌
 - [Google Python Style Guide](https://google.github.io/styleguide/pyguide.html)
