@@ -384,7 +384,7 @@ def print_statistics(total, mean, median, mode):
     """Idempotent but not pure."""
     
         sq_num = number ** 2
-        a_variable += square_num
+        a_variable += sq_num
     
         return sq_num
     ```
