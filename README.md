@@ -6,6 +6,7 @@
 - [Git](https://github.com/CoreDotToday/styleguide/tree/main/git)
 - [Python](https://github.com/CoreDotToday/styleguide/tree/main/python)
 - [Web](https://github.com/CoreDotToday/styleguide/tree/main/web)
+- [API](https://github.com/CoreDotToday/styleguide/tree/main/api)
 
 
 ## 프로젝트 문서에 항상 들어가 있어야 하는 내용
