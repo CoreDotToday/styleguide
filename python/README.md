@@ -827,9 +827,15 @@ def retry(func=None, exception=Exception, n_tries=5, delay=5, backoff=1, logger=
   ```
 
 
+## 주피터 노트북
+### 매직 커맨드
+- `%pylab inline`를 쓰지 말고 `%matplotlib inline`를 쓰자<sup>[[3]](#footnote1)</sup>   
+
+
 ## 각주
 <strong><a name="footnote1">1.</a></strong> 제안자 <a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/jourmooney/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/jourmooney">@jourmooney</a>가 89년생   
-<strong><a name="footnote2">2.</a></strong> 새로운 변경사항은 기존 코드의 동작에 영향을 주지 않는다
+<strong><a name="footnote2">2.</a></strong> 새로운 변경사항은 기존 코드의 동작에 영향을 주지 않는다   
+<strong><a name="footnote2">3.</a></strong> Jupyter의 코어 개발자 <a href="https://github.com/ipython/ipython/issues/8315">Carreau</a>가 격하게 반대.. <a href="https://carreau.github.io/posts/10-No-PyLab-Thanks/#Please-Stop-using-Pylab">[Blog]</a>
 
 ## 참고 문헌
 - [Google Python Style Guide](https://google.github.io/styleguide/pyguide.html)
