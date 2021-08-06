@@ -810,6 +810,7 @@ def retry(func=None, exception=Exception, n_tries=5, delay=5, backoff=1, logger=
 
 ### 테스팅
 - [pytest](https://docs.pytest.org/en/latest/) 를 사용하여 테스트 작성하자
+- 테스트 파일의 이름은 `test_`로 시작해야 하며, 마찬가지로 테스트 함수도 `test_`로 시작되어야 한다
 - 많은 작은 순수(pure) 함수 및 멱등(idempotent) 함수를 작성하고, 변형(mutations)이 발생하는 것을 최소화하자
 - 버그를 수정할 때마다 [회귀 테스트](https://docs.python.org/3.8/library/test.html) 를 작성하자
   - 회귀(regression)<sup>[[2]](#footnote2)</sup> 테스트 없이 수정된 버그는 거의 확실하게 향후 다시 중단될 것이다

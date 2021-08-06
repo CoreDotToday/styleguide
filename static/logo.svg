@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 2000 200" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+    <style type="text/css">
+    html, body{
+    height: 100%;
+    font-weight: 800;
+    }
+
+    body{
+    background: #ffffff;
+    font-family: Helvetica;
+    }
+
+    svg {
+        display: block;
+        font: 10.5em 'Helvetica';
+        width: 2000px;
+        height: 200px;
+        margin: 0 auto;
+    }
+
+    .text-copy {
+        fill: none;
+        stroke: white;
+        stroke-dasharray: 6% 29%;
+        stroke-width: 5px;
+        stroke-dashoffset: 0%;
+        animation: stroke-offset 5.5s infinite linear;
+    }
+
+    .text-copy:nth-child(1){
+        stroke: #D4F1F4;
+        animation-delay: -1;
+    }
+
+    .text-copy:nth-child(2){
+        stroke: #75E6DA;
+        animation-delay: -2s;
+    }
+
+    .text-copy:nth-child(3){
+        stroke: #189AB4;
+        animation-delay: -3s;
+    }
+
+    .text-copy:nth-child(4){
+        stroke: #000C66;
+        animation-delay: -4s;
+    }
+
+    .text-copy:nth-child(5){
+        stroke: #05445E;
+        animation-delay: -5s;
+    }
+
+    @keyframes stroke-offset{
+        100% {stroke-dashoffset: -35%;}
+    }
+    </style>
+    </defs>
+	<symbol id="s-text">
+		<text text-anchor="middle" x="50%" y="80%">Core.Today Style Guides</text>
+	</symbol>
+
+	<g class = "g-ants">
+		<use xlink:href="#s-text" class="text-copy"></use>
+		<use xlink:href="#s-text" class="text-copy"></use>
+		<use xlink:href="#s-text" class="text-copy"></use>
+		<use xlink:href="#s-text" class="text-copy"></use>
+		<use xlink:href="#s-text" class="text-copy"></use>
+	</g>
+</svg>
