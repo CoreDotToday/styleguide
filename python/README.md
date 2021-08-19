@@ -29,6 +29,7 @@
 - Numpy 스타일 독스트링을 기준으로 한다
   - 가독성을 극대화하기 위해 추가 세로 공간을 사용하는 좋은 형식
   - [Numpy-style.py](https://github.com/CoreDotToday/styleguide/blob/main/python/docstring/Numpy-style.py)
+  - [numpydoc docstring-standard](https://numpydoc.readthedocs.io/en/latest/format.html#docstring-standard)
 - 예(example)는 REPL 스타일로 제공되어야 한다
 ```python
 """
