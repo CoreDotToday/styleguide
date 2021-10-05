@@ -20,7 +20,8 @@
   - 예를 들어, `Blame` 버튼을 통해서 https://github.com/CoreDotToday/styleguide/blame/f8cda659206c525d4c7b41ae5979df4a47967ded/python/README.md#L15 와 같이 Line Number를 기재해 주세요
 
 
-
+## Advice
+- Pro Git 2판을 온라인으로 읽어보세요 https://git-scm.com/book/ko/v2
 
 
 
