@@ -22,7 +22,7 @@
 
 ## Advice
 - Pro Git 2판을 온라인으로 읽어보세요 https://git-scm.com/book/ko/v2
-
+- Github Project를 사용한다면 프로젝트 매니지먼트 문서를 읽어보세요 https://github.com/cheese10yun/github-project-management
 
 
 ### 참고문헌
