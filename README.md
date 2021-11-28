@@ -7,7 +7,7 @@
 - [Python](https://github.com/CoreDotToday/styleguide/tree/main/python)
 - [Web](https://github.com/CoreDotToday/styleguide/tree/main/web)
 - [API](https://github.com/CoreDotToday/styleguide/tree/main/api)
-
+- [DB](https://github.com/CoreDotToday/styleguide/tree/main/db)
 
 ## 프로젝트 문서에 항상 들어가 있어야 하는 내용
 - 프로젝트로 해결하려는 문제 (한 두 문장으로)
