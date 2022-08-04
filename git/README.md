@@ -11,6 +11,9 @@
 - 문장의 끝에 마침표를 적지 말아주세요
 - 오타 수정은 `Fix Typo` 입니다
 - 첫 글자는 대문자로 시작합니다
+- `(backquote, backtick, 억음부호)를 쓸 때는 큰따옴표(") 말고 작은따옴표(')를 쓰세요
+  - ```git commit -m "Test `back quote` back quote"``` -> 입력 안됨
+  - ```git commit -m 'Test `back quote` back quote'``` -> 입력 됨
 
 ## Issues
 - 이슈 제목은 짧지만 설명력 있게!
