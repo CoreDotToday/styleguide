@@ -5,6 +5,9 @@
 
 ## 기본 요구사항
 
--   cAt(created_at)은 UTC NOW 기준
-    -   Human readable하게 ISO 8601 형식으로 추가
+-   cAt는 UTC NOW 기준
+    -   UNIX Time(epoch) 형식으로 추가
     -   이하 mAt, dAt 모두 동일
+-   created_at은 UTC NOW 기준
+    -   Human readable하게 ISO 8601 형식으로 추가
+    
